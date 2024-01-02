@@ -6,7 +6,7 @@ User=pi
 Group=pi
 Type=simple
 RuntimeDirectory=/home/pi/buzzipick/pypicker
-ExecStart=/home/pi/buzzipick/pypicker/venv/bin/python /home/pi/buzzipick/pypicker/buzzimage.py /media/pi/photos
+ExecStart=/home/pi/buzzipick/pypicker/venv/bin/python /home/pi/buzzipick/pypicker/buzzimage.py /home/pi/Pictures
 
 [Install]
 WantedBy=multi-user.target
