@@ -2,11 +2,11 @@
 Description=Buzz iPick
 
 [Service]
-User=bresnaha
-Group=bresnaha
+User=pi
+Group=pi
 Type=simple
-RuntimeDirectory=/home/bresnaha/buzzipick/pypicker
-ExecStart=/home/bresnaha/buzzipick/pypicker/venv/bin/python /home/bresnaha/buzzipick/pypicker/flaskapp.py /media/bresnaha/NETBACK/Photos\ Library.photoslibrary/
+RuntimeDirectory=/home/pi/buzzipick/pypicker
+ExecStart=/home/pi/buzzipick/pypicker/venv/bin/python /home/pi/buzzipick/pypicker/buzzimage.py /media/pi/photos
 
 [Install]
 WantedBy=multi-user.target
